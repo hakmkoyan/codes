@@ -6,4 +6,4 @@ on:
 jobs:
   build-push:
     name: codes build & push
-    uses: hakmkoyan/github-shared-workflows/blob/main/.github/workflows/ci-func.yaml@main
+    uses: hakmkoyan/github-shared-workflows/.github/workflows/ci-func.yaml@main
