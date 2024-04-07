@@ -1,0 +1,9 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-push:
+    name: codes build & push
+    uses: hakmkoyan/github-shared-workflows/blob/main/.github/workflows/ci-func.yaml@main
